@@ -1,0 +1,71 @@
+/*Universal section*/
+main{
+    position: relative;
+    top: 150px;
+}
+
+
+
+/*header section*/
+header{
+    display: flex;
+}
+
+.header{
+    font-family: "dancing script", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    background-color:aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.header h1{
+    margin: auto;
+}
+
+.header h4{
+    margin-top: 10px;
+}
+
+/*flavor section*/
+.flavors{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.flavorhead{
+    width: 100%;
+}
+
+.flavorhead h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.flavorprice{
+    display: inline-flex;
+    width: 100%;
+    
+    justify-content: center;
+    
+
+}
+.flavorprice ul{
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.flavorleft{
+    width: 225px;
+    
+    
+}
+
+.flavorright{
+   width: 200px;
+   text-align: center;
+}
